@@ -1,0 +1,14 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int main()
+{
+    string name="Neha H.C";
+    int age=19;
+    char grade='B';
+    float height=5.4;
+    cout<<"age:"<<age<<endl;
+    cout<<" name:"<<name<<endl;
+    cout<<"height:"<<height<<endl;
+    return 0;
+}
