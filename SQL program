@@ -1,0 +1,9 @@
+create table student(
+name varchar(15),
+regno int(10),
+class int(10),
+major varchar(15));
+insert into student(name,regno,class,major)
+values
+('smith',17,1,'cs'),
+('brown',8,2,'cs');
