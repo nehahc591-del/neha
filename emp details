@@ -1,0 +1,16 @@
+create table employee(empid int(10) primary,firstname varchar(20),lastname varchar(20),hiereddata date,adress varchar(20),city varchar(20));
+insert into employee values(1001,'george','smith','11-may-26','86 cross','paris');
+insert into employee values(1002,'may','jones','22-may-26','87 cross','london');
+insert into employee value(1003,'sam','tones','12-sep-26','54 cross','paris');
+insert into employee values(1004,'peter','thompson','19-dec-26','37 cross','paris');
+insert into employee values(1005,'sarat','sharma','22-aug-26','54 main road','new delhi');
+insert into employee values(1006,'monika','gupta','07-feb-26','9 bandana','mumbai');
+create table empsalary(empid int(10),empid references employee(empid),salary int(10),benefits(10),designation varchar(10));
+insert into empsalary values(1001,10000,3000,'manager');
+insert into empsalary values(1002,8000,1200,'salesman');
+insert into empsalary values(1012,20000,5000,'director');
+insert into empsalary values(1015,6500,1300,'clerk');
+insert into empsalary values(1016,6000,1000,'clerk');
+insert into empsalary values(1020,8000,1200,'salesman');
+select firstname,lastname,address,city from employee where city='paris';
+select *from employee order by first name=desc;
