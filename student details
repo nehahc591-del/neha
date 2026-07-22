@@ -1,0 +1,41 @@
+-- create
+create table student(name varchar(10),regno int(5),class int(5),major varchar(5));
+insert into student values('smith',17,1,'CS');
+insert into student values('brown',8,2,'CS');
+select*from student;
+create table course(CourseName varchar(25),Coursenumber varchar(10),credithours int(10),depratment varchar(5));
+insert into course values('CS','CS1310',4,'CS');
+insert into course values('Data Structure','CS3320',9,'CS');
+insert into course values('Discrete Maths','MATH240',3,'MATH');
+insert into course values('DBMS','CS3380',3,'CS');
+select*from course;
+create table section(SectionIdentifier int(20),CourseNumber varchar(10),year int(5),instructor varchar(10));
+insert into section values(85,'MATH2410',98,'King');
+insert into section values(92,'CS1310',98,'Anderson');
+insert into section values(102,'CS3320',99,'Kruth');
+insert into section values(112,'MATH2410',99,'Chnang');
+insert into section values(119,'CS1310',99,'Anderson');
+insert into section values(135,'CS3380',99,'Stone');
+select*from section;
+create table gradereport(regno varchar(5),sectionIdentifier int(5),grade varchar(5));
+insert into gradereport values(17,112,'B');
+insert into gradereport values(17,119,'C');
+insert into gradereport values(8,85,'A');
+insert into gradereport values(8,92,'A');
+insert into gradereport values(8,102,'B');
+insert into gradereport values(8,135,'A');
+select*from gradereport;
+Alter table section add fieldsection varchar(5);
+select*from section;
+update section set fieldsection='A'where sectionIdentifier=85;
+update section set fieldsection='B'where sectionIdentifier=92;
+update section set fieldsection='C'where sectionIdentifier=102;
+update section set fieldsection='D'where sectionIdentifier=112;
+update section set fieldsection='E'where sectionIdentifier=119;
+update section set fieldsection='F'where sectionIdentifier=135;
+select*from section;
+delete from gradereport where grade='A';
+select*from gradereport;
+drop table section;
+
+
