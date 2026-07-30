@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>college course details-GSSS SSFGC</title>
+    </head>
+    <body>
+      <h1>GSSS SSFGC</h1>
+      <h2>college course details</h2>
+      <under graduation courses>
+        <h3>under graduation courses</h3>
+        <ul style="list-style-type:square;">
+          <li>BCA</li>
+          <li>B.COM</li>
+          <li>BBA</li>
+        </ul>
+        <h4>BCA subjects</h4>
+        <ol type="1">
+          <li>web technology</li>
+          <li>c# programming</li>
+          <li>database management</li>
+        </ol>
+        <h4>B.COM subjects</h4>
+        <ol type="A">
+          <li>Finiancial Accounting</li>
+          <li>Business communication</li>
+          <li>corporate law</li>
+        </oi>
+        <h4>BBA subjects</h4>
+        <ol type="i">
+          <li>principals of management</li>
+          <li>marketing fundemental</li>
+          <li>business mathematics</li>
+        </ol>
+        <Post graduation courses>
+          <h3>post graduation courses</h3>
+          <ul style="list-style-type:circle;">
+            <li>MCA</li>
+            <li>MBA</li>
+          </ul>
+          <h4>MCA subjects</h4>
+          <ol type="a">
+            <li>advanced java</li>
+            <li>data structures</li>
+            <li>operating system</li>
+          </ol>
+          <h4>MBA subjects</h4>
+          <ol type="I">
+            <li>principals of management</li>
+            <li>managerial economics</li>
+            <li>marketing management</li>
+          </ol>
+    </body>
+    </html>
