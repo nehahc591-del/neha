@@ -1,0 +1,29 @@
+using System;
+class Program
+{
+	static void Main()
+{
+	string str="Hello world";
+	Console.WriteLine("original string:"+str);
+	//1.Length
+	Console.WriteLine("Length:"+str.Length);
+	//2.ToUpper
+	Console.WriteLine("Toupper:"+str.ToUpper());
+	//3.ToLower
+	Console.WriteLine("Tolower:"+str.ToLower());
+	//4.Replace
+	Console.WriteLine("Replace:"+str.Replace("World","c#"));
+	//5.Substring
+	Console.WriteLine("Substring:"+str.Substring(6));
+	//6.Contains
+	Console.WriteLine("contains:"+str.Contains("hello"));
+	//7.IndexOf
+	Console.WriteLine("Indexof:"+str.IndexOf("world"));
+	//8.Equals
+	Console.WriteLine("Equals:"+str.Equals("hello world"));
+	//9.Compare
+	Console.WriteLine("Compare:"+string.Compare("abc","abc"));
+	//10.Concat
+	Console.WriteLine("Concat:"+string.Concat(str,"welcome"));
+}
+}
