@@ -1,0 +1,6 @@
+x=int(input("enter number a:"))
+y=int(input("enter number b:"))
+temp=x
+x=y
+y=temp
+print(x,y)
