@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Details</title>
+</head>
+<body>
+    <h2>Student Details</h2>
+    <p>Name: Neha</p>
+    <p>Course: BCA</p>
+    <p>Semester: 3rd Semester</p>
+</body>
+</html>
