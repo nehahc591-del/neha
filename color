@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Color Page</title>
+</head>
+<body style="background-color: lightblue;">
+
+    <h1 style="color: red;">Welcome to My Page</h1>
+    <p style="color: green;">This is a colorful HTML webpage.</p>
+
+</body>
+</html>
