@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lists and Tables</title>
+</head>
+
+<body>
+
+<h2>My Subjects</h2>
+
+<ul>
+    <li>C#</li>
+    <li>DBMS</li>
+    <li>Web Technology</li>
+    <li>E-Commerce</li>
+</ul>
+
+<h2>Student Details</h2>
+
+<table border="1" cellpadding="8">
+    <caption>Student Information</caption>
+
+    <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Marks</th>
+    </tr>
+
+    <tr>
+        <td>101</td>
+        <td>Anu</td>
+        <td>85</td>
+    </tr>
+
+    <tr>
+        <td>102</td>
+        <td>Ravi</td>
+        <td>90</td>
+    </tr>
+
+    <tr>
+        <td>103</td>
+        <td>Priya</td>
+        <td>88</td>
+    </tr>
+</table>
+
+</body>
+</html>
